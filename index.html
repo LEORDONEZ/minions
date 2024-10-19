@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Qué dice </h1>
+    <h2>Qué bobada esto pero lo miré en intertent </h2>
+    <h2>¿VAS A DEJAR PASAR QUE ME OLVIDE DE TU CUMPLEAÑOS ?</h2>
+    <div class = "content-center">
+        <img src="minium1.gif" alt="">
+    <!-- Botones 'Sí' y 'No'-->
+    
+
+    </div>
+    <div class="content-center">
+        <button id="si1">Sí</button>
+        <button id="no1">No</button>
+    </div>
+    <script>
+        document.getElementById("si1").addEventListener("click", function(){
+            window.location.href = "pagina-si1.html"; // Va a la página 2
+        });
+
+        document.getElementById("no1").addEventListener("click", function(){
+            window.location.href = "pagina-no1.html"; // Va a la página 3
+        });
+    </script>
+
+
+</body>
+</html>

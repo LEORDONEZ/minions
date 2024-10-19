@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+.content-center {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px o;
+}
+
+.content-center img {
+    clip-path: inset(10px 0 10px 0); /* Recorta los bordes de la imagen */
+    border-radius: 30px; /* Redondea los bordes de la imagen */
+    width: auto; /* Mantiene la proporción de la imagen */
+}
+body {
+    background-color: white;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    margin: 1;
+    padding: 0;
+}
+
+h1{
+    font-size: 3em;
+    color: #0059b3;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+h2{
+    font-size:1.5em;
+    color: #ffeb3b;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+img{
+    
+    max-width: 100%;
+}
+
+/* Estilos para los botones */
+
+button{
+    
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.5em;
+    padding:15px 30px;
+    margin: 10px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+
+}
+
+button:hover {
+    transform:sacle(1.1);
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.4);
+
+}
+
+#si1,#si2,#si3,#si4 {
+    background-color: #ffeb3b;
+    color: #0059b3;
+
+}
+#no1,#no2,#no3,#no4,#si5 {
+    background-color: #0059b3; /* Azul para botón 'No' */
+    color: #ffeb3b; /* Texto amarillo */
+}
+
+#continuar{
+    background-color: #0059b3;
+    color: #ffeb3b;
+}
+
